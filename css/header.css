@@ -1,0 +1,26 @@
+.headeer {
+
+    text-align: center;
+    color: hsl(300, 71%, 43%);
+}
+
+.header__image {
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 5px -5px 5px 0px #99a7a1;
+}
+
+.header__name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.header__name--title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: hsl(300, 71%, 43%);
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 5px -5px 5px 0px #CDD1D3;
+}

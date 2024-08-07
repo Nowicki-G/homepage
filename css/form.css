@@ -1,0 +1,23 @@
+.form{
+    width: 300px;
+}
+
+.form__fieldset{
+    color: black;
+    background-color: hsla(180, 100%, 40%, 0.731);
+}
+.form__legend{
+    color: #222;
+    border: 1px solid #222;
+    background-color: white;
+}
+.form__button{
+    background-color: white;
+}
+.form__bmi{
+    color: #333;
+    background: hsla(180, 100%, 40%, 0.731);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
