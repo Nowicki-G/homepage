@@ -1,15 +1,15 @@
 .navigation {
     border: 1px solid black;
     background-color: hsl(88, 25%, 90%);
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-
 }
 
 .navigation__link {
+    /* margin-top: 20px; */
     color: #222;
     text-decoration: none;
-    margin: 20px 40px 20px 40px;
+    margin: 20px 40px 0px 40px;
     position: relative;
     box-shadow: 5px -5px 5px 0px #706f6f;
 }
