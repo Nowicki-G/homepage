@@ -1,5 +1,5 @@
 .form{
-    width: 300px;
+    width: 500px;
 }
 
 .form__fieldset{
@@ -12,6 +12,7 @@
     background-color: white;
 }
 .form__button{
+    padding:  10px;
     background-color: white;
 }
 .form__bmi{
@@ -20,4 +21,7 @@
     border-radius: 5px;
     border: 1px solid black;
     padding: 10px;
+}
+.form__input{
+    padding:  10px;
 }
