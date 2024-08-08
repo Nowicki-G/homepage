@@ -6,10 +6,9 @@
 }
 
 .navigation__link {
-    /* margin-top: 20px; */
     color: #222;
     text-decoration: none;
-    margin: 20px 40px 0px 40px;
+    margin: 20px 40px 20px 40px;
     position: relative;
     box-shadow: 5px -5px 5px 0px #706f6f;
 }
@@ -19,7 +18,8 @@
     text-align: center;
     padding: 10px;
 }
-.navigation__link--pasje{
+
+.navigation__link--pasje {
     color: white;
     background-color: hsl(180deg 100% 25.1% / 73.1%);
     max-width: 100%;
