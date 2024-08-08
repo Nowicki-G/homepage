@@ -1,5 +1,4 @@
 .navigation {
-    max-width: 100%;
     border: 1px solid black;
     background-color: hsl(88, 25%, 90%);
     padding: 10px;
@@ -8,7 +7,6 @@
 }
 
 .navigation__link {
-    border: 1px solid #222;
     color: #222;
     text-decoration: none;
     margin: 20px 40px 20px 40px;
@@ -17,6 +15,7 @@
 }
 
 .button {
+    width: 100%;
     text-align: center;
     padding: 10px;
 }
