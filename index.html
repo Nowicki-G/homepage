@@ -30,6 +30,7 @@
             <a class="navigation__link" href="#praca">Work </a>
             <a class="navigation__link" href="#pasje">Hobby </a>
             <a class="navigation__link" href="#gallery">Galeria</a>
+            <a class="navigation__link" href="#calc">Calculator</a>
             <a class="navigation__link" href="#kontakt">Kontakt </a>
         </nav>
         <hr>
@@ -94,37 +95,39 @@
                     </p>
                 </section>
                 <h3>Po przeliczeniu Swojego BMI, będziesz wiedział co dalej robić ze swoim ciałem. 😊</h3>
-                <form class=" form js-form">
-                    <fieldset class="form__fieldset">
-                        <legend class="form__legend">
-                            Twoje BMI !!!
-                        </legend>
-                        <p>
-                            <label>
-                                Twoj wzrost:
-                                <input class="form__input js-height" required type="number" min="1" step="any">
+                <section id="calc">
+                    <form class=" form js-form">
+                        <fieldset class="form__fieldset">
+                            <legend class="form__legend">
+                                Twoje BMI !!!
+                            </legend>
+                            <p>
+                                <label>
+                                    Twoj wzrost:
+                                    <input class="form__input js-height" required type="number" min="1" step="any">
 
-                            </label>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    Twoja waga:
+                                    <input class="form__input js-weight" required type="number" min="1" step="any">
+                                </label>
+                            </p>
+                        </fieldset>
+
+                        <p>Twoje BMI wynosi:
+                        <p><strong class="form__bmi js-bmi">N/a</strong></p>
                         </p>
+
                         <p>
-                            <label>
-                                Twoja waga:
-                                <input class="form__input js-weight" required type="number" min="1" step="any">
-                            </label>
+                            <button class="form__button"> Przelicz BMI! </button>
+
+
+                            <button class="form__button" type="reset"> Wyczyść formularz </button>
                         </p>
-                    </fieldset>
-
-                    <p>Twoje BMI wynosi:
-                    <p><strong class="form__bmi js-bmi">N/a</strong></p>
-                    </p>
-
-                    <p>
-                        <button class="form__button"> Przelicz BMI! </button>
-
-
-                        <button class="form__button" type="reset"> Wyczyść formularz </button>
-                    </p>
-                </form>
+                    </form>
+                </section>
                 <hr>
                 <p>
                 <table class="table">
