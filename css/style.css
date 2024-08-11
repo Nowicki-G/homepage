@@ -6,6 +6,9 @@ html {
     box-sizing: inherit;
 }
 .body {
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
     background-color: hsl(96, 14%, 93%);
 }
 .messange {
