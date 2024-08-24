@@ -10,4 +10,4 @@ It is not easy, but as they say: "Everything beautiful - is born from pain". <br
 
 ### My works
 - [Hompage](https://nowicki-g.github.io/homepage/)
-- [Calculate-Currenc](https://nowicki-g.github.io/Calculate-Currency/)
+- [Calculate-Currency](https://nowicki-g.github.io/Calculate-Currency/)
