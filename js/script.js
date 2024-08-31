@@ -1,26 +1,29 @@
-console.log("Witam wszystkich programistów !");
+{
+    const welcome = () => {
+        console.log("Witam wszystkich programistów !");
+    }
 
-let button = document.querySelector(".button");
-let font = document.querySelector(".font");
+    const afterClickingCalculateBmi = (event) => {
+        event.preventDefault();
+        
+        const heightElement = document.querySelector(".js-height");
+        const weightElement = document.querySelector(".js-weight");
+        const bmiElement = document.querySelector(".js-bmi");
+        const height = heightElement.value;
+        const weight = weightElement.value;
 
-button.addEventListener("click", () => {
-   font.classList.toggle("dark");
-});
+        const bmi = weight / ((height / 100) ** 2)
 
-let heightElement = document.querySelector(".js-height");
-let weightElement = document.querySelector(".js-weight");
-let formElement = document.querySelector(".js-form");
-let bmiElement = document.querySelector(".js-bmi");
+        bmiElement.innerText = bmi.toFixed(2);
+    }
+    welcome();
 
+    const init = () => {
 
-formElement.addEventListener("submit", (event) => {
-    event.preventDefault();
+        const formElement = document.querySelector(".js-form");
 
-    let height = heightElement.value;
-    let weight = weightElement.value;
+        formElement.addEventListener("submit", afterClickingCalculateBmi);
+    };
 
-    let bmi = weight / ((height / 100) ** 2)
-
-    bmiElement.innerText = bmi.toFixed(2);
-});
-
+    init();
+};
