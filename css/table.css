@@ -1,29 +1,35 @@
 .table {
+    text-overflow: initial;
     font-family: "Lato", sans-serif;
     border-collapse: collapse;
     width: 100%;
     
 }
+
 .tableCell {
     border: 1px solid #2d2d2d;
     padding: 10px;
     text-align: center;
     vertical-align: middle;
-}  
+} 
+
 .table__caption {
     border: 1px solid white;
     caption-side: top;
     text-align: left;
     margin-bottom: 20px;
 }
+
 .tableHeader  {
     color: rgb(7, 7, 7);
     background-color: hsl(180deg 100% 40% / 73.1%);
     font-weight: normal;
 }
+
 .tableRow:nth-child(even) {
     background: #eee;
 }
+
 .tableRow:hover {
     background: #a7a6a6;
 }
