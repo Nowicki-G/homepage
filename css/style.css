@@ -5,12 +5,14 @@ html {
 *, ::before, ::after {
     box-sizing: inherit;
 }
+
 .body {
     text-align: center;
     margin: 0 auto;
     max-width: 900px;
     background-color: hsl(96, 14%, 93%);
 }
+
 .messange {
     color: red;
 }
