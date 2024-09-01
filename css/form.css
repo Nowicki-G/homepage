@@ -13,11 +13,13 @@
     border: 1px solid #222;
     background-color: white;
 }
+
 .form__button{
     border-radius: 5px;
     padding:  10px;
     background-color: white;
 }
+
 .form__bmi{
     color: #333;
     background: hsla(180, 100%, 40%, 0.731);
@@ -25,6 +27,7 @@
     border: 1px solid black;
     padding: 10px;
 }
+
 .form__input{
     border-radius: 5px;
     padding:  10px;
