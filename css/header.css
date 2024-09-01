@@ -1,4 +1,6 @@
-.headeer {text-align: center;color: hsl(300, 71%, 43%);}
+.headeer {
+    text-align: center;
+    color: hsl(300, 71%, 43%);}
 
 .header__image {
     margin: 10px;
