@@ -3,15 +3,18 @@
 }
 
 .form__fieldset{
+    border-radius: 5px;
     color: black;
     background-color: hsla(180, 100%, 40%, 0.731);
 }
 .form__legend{
     color: #222;
+    border-radius: 5px;
     border: 1px solid #222;
     background-color: white;
 }
 .form__button{
+    border-radius: 5px;
     padding:  10px;
     background-color: white;
 }
@@ -23,5 +26,6 @@
     padding: 10px;
 }
 .form__input{
+    border-radius: 5px;
     padding:  10px;
 }
