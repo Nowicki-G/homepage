@@ -7,7 +7,7 @@ html {
 }
 .body {
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     max-width: 900px;
     background-color: hsl(96, 14%, 93%);
 }
