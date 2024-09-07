@@ -23,3 +23,9 @@
     position: relative;
     box-shadow: 5px -5px 5px 0px #CDD1D3;
 }
+
+.header__button {
+    box-shadow: 0, 0, 5, 5 black;
+    background: hsl(180deg 100% 40% / 80%);
+    padding: 10px;
+}
