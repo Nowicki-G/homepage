@@ -20,6 +20,8 @@
 }
 
 .button {
+    background: #ccc;
+    margin-bottom: 10px;
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -42,9 +44,6 @@
     color: black;
     text-decoration: none;
     margin: 10px;
-    box-shadow: 5px -5px 5px 0px #868C86;
-    border: 1px solid black;
-    border-radius: 5px;
     padding: 20px;
 
 }
