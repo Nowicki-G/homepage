@@ -1,3 +1,5 @@
 .container {
+   margin: 0 auto;
    overflow-x: auto;
+   padding: 10px;
 }
